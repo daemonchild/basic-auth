@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Authentication - {{ action }}</title>
+    </head>
+    <body>
+        <h1>Authentication {{ action }} for {{ username }}</h1>
+
+        {% for header in headers %}
+
+        	<p> {{ header }}
+
+        {% endfor %}
+
+    </body>
+</html>
